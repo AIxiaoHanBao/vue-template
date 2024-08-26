@@ -8,6 +8,7 @@ import piniaPersist from 'pinia-plugin-persistedstate';
 import { createPinia } from 'pinia';
 
 
+
 const pinia = createPinia();
 pinia.use(piniaPersist);
 // @ts-ignore

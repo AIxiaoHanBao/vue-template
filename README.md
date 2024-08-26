@@ -148,3 +148,54 @@ export default mainRouter
 ### 四、全局变量管理
 
 UserStore.ts中的模板自行修改
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 更新
+
+## 2024.08.26
+
+添加echarts组件
+
+封装进``src/components/ReEcharts/index.vue``
+
+使用案例页面
+
+``src/pages/Test2.vue``
+
+![image-20240826104204318](http://qiniuyun.aixiaohanbao.uk/image-20240826104204318.png)
+
+如何使用
+
+进入到Echarts官网的示例
+
+[Examples - Apache ECharts](https://echarts.apache.org/examples/zh/index.html)
+
+![image-20240826104405767](http://qiniuyun.aixiaohanbao.uk/image-20240826104405767.png)
+
+随意点击进一个界面
+
+复制option
+
+![image-20240826104446462](http://qiniuyun.aixiaohanbao.uk/image-20240826104446462.png)
+
+在引入中修改
+
+![image-20240826104509846](http://qiniuyun.aixiaohanbao.uk/image-20240826104509846.png)
+
+根据业务要求传入所需数据完成封装
+
+
+
+封装博客来自于[vue3里对Echarts进行封装形成公共组件_vue3封装echarts事件怎么处理-CSDN博客](https://blog.csdn.net/A15029296293/article/details/140048019)
+
